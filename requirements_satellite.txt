@@ -1,0 +1,16 @@
+# =========================================================================
+# Satellite Dependencies (Arduino UNO Q — Debian Linux on QRB2210 MPU)
+# For duplex audio capture/playback and STM32 serial bridge
+# =========================================================================
+
+# WebSocket transport
+websockets>=12.0
+
+# Audio capture & playback (PortAudio binding)
+sounddevice>=0.4.6
+
+# Numerical arrays
+numpy>=1.22.0
+
+# Serial communication to STM32U585 coprocessor
+pyserial>=3.5

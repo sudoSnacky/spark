@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Spark
+Comment=Launch Spark Desktop Companion
+Exec=/home/pi/spark/start_agent.sh
+Path=/home/pi/spark
+Terminal=true
+Categories=Utility;

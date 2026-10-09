@@ -1,0 +1,37 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8765
+  },
+  "llm": {
+    "model": "gemma4:e2b",
+    "fallback_model": "gemma:2b",
+    "temperature": 0.7,
+    "ollama_url": "http://localhost:11434",
+    "system_prompt": "You are Spark, a cheerful, curious, and loyal miniature robotic desktop companion. You speak in a warm, lively, and concise manner. Keep every response to 1 or 2 short sentences maximum. Never use markdown, bullet points, asterisks, or lists—only plain spoken dialogue."
+  },
+  "vad": {
+    "threshold": 0.5,
+    "min_speech_duration_ms": 250,
+    "min_silence_duration_ms": 700,
+    "speech_pad_ms": 200
+  },
+  "stt": {
+    "model_size": "base.en",
+    "device": "auto",
+    "compute_type": "auto"
+  },
+  "tts": {
+    "voice_model": "piper/en_GB-semaine-medium.onnx",
+    "voice_config": "piper/en_GB-semaine-medium.onnx.json",
+    "speaker": 0,
+    "piper_binary": "piper",
+    "sample_rate": 22050
+  },
+  "screen_gui": {
+    "enabled": false,
+    "fullscreen": false,
+    "width": 800,
+    "height": 480
+  }
+}

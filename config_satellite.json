@@ -1,0 +1,16 @@
+{
+  "host_url": "ws://192.168.1.100:8765",
+  "audio": {
+    "device_keyword": "USB",
+    "capture_sample_rate": 16000,
+    "playback_sample_rate": 22050,
+    "channels": 1,
+    "chunk_size": 512
+  },
+  "stm32": {
+    "enabled": true,
+    "port": "/dev/ttyRPMSG0",
+    "fallback_ports": ["/dev/ttyACM0", "/dev/ttyUSB0"],
+    "baudrate": 115200
+  }
+}

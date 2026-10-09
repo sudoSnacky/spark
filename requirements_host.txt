@@ -1,0 +1,23 @@
+# =========================================================================
+# Host Dependencies (PC — Windows / Linux / macOS)
+# For running LLM (Ollama), STT (faster-whisper), VAD (Silero), TTS (Piper)
+# =========================================================================
+
+# WebSocket transport
+websockets>=12.0
+
+# Numerical / audio processing
+numpy>=1.24.0
+
+# Speech-to-Text (CTranslate2-backed Whisper)
+faster-whisper>=1.0.0
+
+# Voice Activity Detection (Silero, loaded via torch.hub)
+torch>=2.0.0
+
+# LLM client
+ollama>=0.3.0
+
+# Text-to-Speech (optional — can also use Piper CLI binary directly)
+# Uncomment if using the Python module instead of the standalone binary:
+# piper-tts>=1.2.0
